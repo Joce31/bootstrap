@@ -1,0 +1,92 @@
+https://getbootstrap.com/
+
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html>
+
+On les mets dans le body
+
+
+creer des boutons pleins
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+A Noter que dans la class et dans le type c'est toujours la meme chose
+
+creer des boutons contour (outline au lieu de btn)
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+
+rajouter une taille a la fin de class (btn-lg ou btn-sm)
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+
+Pour descativer un bouton on rajoute "disabled" apres les guillemet de la class
+
+<button type="button" class="btn btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary" disabled>Button</button>
+<button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+
+Les badges
+
+<h1>Example heading <span class="badge bg-secondary">New</span></h1>
+<h2>Example heading <span class="badge bg-secondary">New</span></h2>
+<h3>Example heading <span class="badge bg-secondary">New</span></h3>
+<h4>Example heading <span class="badge bg-secondary">New</span></h4>
+<h5>Example heading <span class="badge bg-secondary">New</span></h5>
+<h6>Example heading <span class="badge bg-secondary">New</span></h6>
+
+On peut changer les secondary par : 
+primary, success, dangers, ....
+
+breakpoints
+
+Fait automatiquement le media queries pour le responsive
+appliquer au element pas a la page
+
+Containers
+
+Mettre notre contenu dans une <div> :
+	container ou container-fluid (prend toute la largeur)
+
+grid
+
+3 colonnes par ex vont se partager l'espace
+le bloc definit est "row" ( 12 colonne ) et le "col" definit par "-x" l''espace que prend la colonne
+
+
+Pour le responsive pour les portables col lg 4
+
+
+
+
+
