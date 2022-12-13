@@ -86,6 +86,8 @@ le bloc definit est "row" ( 12 colonne ) et le "col" definit par "-x" l''espace 
 
 Pour le responsive pour les portables col lg 4
 
+https://openclassrooms.com/fr/courses/7542506-creez-des-sites-web-responsives-avec-bootstrap-5/7546708-rendez-votre-mise-en-page-responsive
+
 
 
 
